@@ -1,0 +1,77 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #e5e5e5;
+    background-color: #393a3d;
+    max-height: 100vh;
+    overflow: hidden !important;
+}
+.navbar-item-icon {
+    height: 24px;
+    width: 24px;
+    align-self: center;
+    margin: 12px 10px 12px 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.navbar-item-container {
+    position: relative;
+}
+.navbar .navbar-item:hover:before {
+    content: "";
+    background: #ebedf0;
+    opacity: 0.2;
+    width: calc(100% + 6px);
+    height: 42px;
+    left: -6px;
+    top: 0;
+    position: absolute;
+}
+.navbar-item {
+    height: 42px;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 0px;
+    border-left: 6px solid transparent;
+}
+.navbar-item.clickItem {
+    position: relative;
+    border-left-color: #2ca01c;
+    z-index: 2;
+}
+.navbar-item.clickItem:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background: #ebedf0;
+    opacity: 0.2;
+    position: absolute;
+}
+.navbar-item .navbar-item-text {
+    font-size: 13px;
+    color: white;
+}
+.logo-box {
+    width: 130px;
+    min-height: 48px !important;
+    cursor: pointer;
+    border-right: 1px solid #e5e5e5;
+    padding: 0 24px;
+}
+.logo-box .home-icon {
+    width: 16px;
+    height: 16px;
+    background: url("../../assets/resource/img/Sprites.64af8f61.svg") no-repeat -428px -92px;
+    margin-right: 10px;
+}
+.logo-box .logo {
+    background: url("../../assets/resource/img/Logo_Module_TiengViet_White.66947422.svg")
+        no-repeat;
+    height: 32px;
+    width: 100px;
+    background-size: contain;
+}
+.navbar-items {
+    overflow: auto;
+}

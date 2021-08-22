@@ -1,0 +1,74 @@
+/* scroll */
+.page {
+    position: relative;
+    max-width: calc(100vw - 180px) !important;
+    width: 100%;
+    font-family: "notosans-regular", sans-serif !important;
+    font-size: 13px;
+    background: #fff;
+}
+.page-body {
+    overflow: auto;
+    position: relative;
+    height: calc(100vh - 51px);
+}
+.body-header,
+.filter-bar {
+    position: sticky;
+    left: 0;
+    right: 0;
+    z-index: 19;
+}
+.body-header {
+    top: 0;
+    z-index: 21;
+}
+.body-content {
+    position: relative;
+}
+/* CSS for filter bar */
+.filter-bar {
+    padding: 0 16px 10px 16px;
+}
+.filter-bar .filter-form {
+    display: flex;
+    align-items: center;
+}
+.filter-form > .dropdown {
+    margin-left: 10px;
+}
+.filter-form {
+    display: inline-flex;
+    align-items: center;
+    width: 250px;
+    height: 32px;
+    border: 1px solid #bbbbbb;
+    border-left: none;
+    border-radius: 2px;
+    font-size: 12px;
+    position: relative;
+}
+
+.filter-form .search-icon {
+    background: url("../../assets/resource/img/Sprites.64af8f61.svg") no-repeat -992px -360px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+.filter-form .input-text {
+    border: none;
+    color: #454545;
+    font-size: 11px;
+    font-style: italic;
+}
+.filter-bar .refresh-btn {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    align-self: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

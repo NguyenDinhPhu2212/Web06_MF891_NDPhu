@@ -1,0 +1,28 @@
+.customBtn {
+    display: inline-flex;
+    align-items: center;
+    height: 36px;
+    width: max-content;
+    background-color: #248b15;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 0px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.customBtn:hover {
+    background-color: #35bf22;
+    color: white;
+}
+.customBtn:focus {
+    background-color: #35bf22;
+}
+.button-icon {
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}

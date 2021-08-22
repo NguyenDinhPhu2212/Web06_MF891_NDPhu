@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\bin\Debug\netcoreapp3.1\MISA.CukCuk.DataAccess.deps.json
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\bin\Debug\netcoreapp3.1\MISA.CukCuk.DataAccess.dll
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\bin\Debug\netcoreapp3.1\MISA.CukCuk.DataAccess.pdb
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataAccess.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataAccess.dll
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataAccess.pdb
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\bin\Debug\netcoreapp3.1\MISA.CukCuk.Business.dll
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\bin\Debug\netcoreapp3.1\MISA.CukCuk.Common.dll
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\bin\Debug\netcoreapp3.1\MISA.CukCuk.Common.pdb
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\bin\Debug\netcoreapp3.1\MISA.CukCuk.Business.pdb
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA.CukCuk.DataAccess\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataAccess.csproj.CopyComplete

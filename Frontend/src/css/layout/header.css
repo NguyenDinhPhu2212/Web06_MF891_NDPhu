@@ -1,0 +1,25 @@
+.employee-list-header {
+    height: 50px;
+    border-bottom: 1px solid #e5e5e5;
+    max-width: 100%;
+}
+.icon {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+.mf-10px{
+    margin-left: 10px;
+    border: none !important;
+}
+.user-box img:nth-child(1) {
+    height: 30px;
+    margin: 0 16px;
+}
+.user-box .username {
+    margin-right: 16px;
+    font-size: 13px;
+}
+.user-box img:nth-child(3) {
+    margin-right: 16px;
+}

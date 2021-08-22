@@ -1,0 +1,22 @@
+
+.toast-message {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    font-size: 13px;
+    padding: 0 10px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+    width: 250px;
+    position: relative;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+.message-content{
+    margin-left: 24px;
+}
+.toast-message .x-btn {
+    position: absolute;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}

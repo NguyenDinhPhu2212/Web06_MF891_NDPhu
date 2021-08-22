@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA_CukCuk_Business\bin\Debug\netcoreapp3.1\MISA_CukCuk_Business.deps.json
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA_CukCuk_Business\bin\Debug\netcoreapp3.1\MISA_CukCuk_Business.dll
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA_CukCuk_Business\bin\Debug\netcoreapp3.1\MISA_CukCuk_Business.pdb
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA_CukCuk_Business.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA_CukCuk_Business.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA_CukCuk_Business.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA_CukCuk_Business.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA_CukCuk_Business.dll
+C:\Users\Admin\source\repos\MISA_CukCuk\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA_CukCuk_Business.pdb

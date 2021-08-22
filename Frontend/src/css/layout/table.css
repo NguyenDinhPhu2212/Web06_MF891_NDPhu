@@ -1,0 +1,107 @@
+/* CSS for table */
+.employee-list {
+    height: calc(100vh - 250px);
+    background: #fff;
+    /* position: relative; */
+}
+table th,
+td {
+    border-bottom: 1px solid #bbbbbb;
+    border-left: 1px dotted #bbbbbb;
+    border-right: 1px dotted #bbbbbb;
+    border-top: none;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 1;
+}
+td {
+    padding: 5px 10px;
+    font-weight: 400;
+}
+tbody tr {
+    height: 48px !important;
+}
+table {
+    width: max-content;
+    max-height: 100%;
+    empty-cells: show;
+    font-size: 13px;
+    table-layout: fixed;
+}
+th {
+    position: sticky;
+    top: 84px;
+    height: 34px !important;
+    background: #eceef1;
+    border-top: none !important;
+    padding-left: 10px;
+    z-index: 20;
+    font-family: "notosans-bold", sans-serif !important;
+}
+td {
+    background-color: #fff;
+}
+tbody tr td:nth-child(even),
+th:nth-child(even) {
+    border-left: none;
+    border-right: none;
+}
+th:nth-child(2),
+th:nth-child(3),
+th:nth-last-child(2),
+tbody tr td:nth-child(2),
+tbody tr td:nth-child(3),
+tbody tr td:nth-last-child(2) {
+    position: sticky;
+    z-index: 10;
+}
+th:nth-child(2),
+th:nth-child(3),
+th:nth-last-child(2) {
+    z-index: 20;
+}
+th:nth-child(2),
+tbody tr td:nth-child(2) {
+    left: 32px;
+    border-left: none;
+    padding: 0 10px;
+}
+th:nth-child(2) > *,
+tbody tr td:nth-child(2) > * {
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+th:nth-child(3),
+tbody tr td:nth-child(3) {
+    left: 82px !important;
+}
+th:nth-last-child(2),
+tbody tr td:nth-last-child(2) {
+    right: 32px;
+    border-right: none;
+    text-align: center;
+    font-family: "notosans-bold", sans-serif !important;
+}
+th:nth-child(6),
+tbody tr td:nth-child(6) {
+    text-align: center;
+}
+th:first-child,
+th:last-child,
+tbody tr td:first-child,
+tbody tr td:last-child {
+    position: sticky;
+    z-index: 20;
+    border: none;
+    background: #fff;
+}
+th:first-child,
+tbody tr td:first-child {
+    left: 0;
+}
+tbody tr td:last-child,
+th:last-child {
+    right: 0px;
+}

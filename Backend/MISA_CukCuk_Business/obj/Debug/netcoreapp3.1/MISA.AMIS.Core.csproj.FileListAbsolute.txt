@@ -1,0 +1,11 @@
+C:\Users\Admin\source\repos\MISA.AMIS\MISA_CukCuk_Business\bin\Debug\netcoreapp3.1\MISA.AMIS.Core.deps.json
+C:\Users\Admin\source\repos\MISA.AMIS\MISA_CukCuk_Business\bin\Debug\netcoreapp3.1\MISA.AMIS.Core.dll
+C:\Users\Admin\source\repos\MISA.AMIS\MISA_CukCuk_Business\bin\Debug\netcoreapp3.1\MISA.AMIS.Core.pdb
+C:\Users\Admin\source\repos\MISA.AMIS\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA.AMIS.Core.Properties.Resources.resources
+C:\Users\Admin\source\repos\MISA.AMIS\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA.AMIS.Core.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\MISA.AMIS\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA.AMIS.Core.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MISA.AMIS\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA.AMIS.Core.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MISA.AMIS\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA.AMIS.Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MISA.AMIS\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA.AMIS.Core.dll
+C:\Users\Admin\source\repos\MISA.AMIS\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA.AMIS.Core.pdb
+C:\Users\Admin\source\repos\MISA.AMIS\MISA_CukCuk_Business\obj\Debug\netcoreapp3.1\MISA.AMIS.Core.csproj.AssemblyReference.cache

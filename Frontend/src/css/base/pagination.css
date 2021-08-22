@@ -1,0 +1,83 @@
+/* CSS for paging-bar */
+.paging-bar {
+    height: 56px;
+    width: 100%;
+    font-size: 13px;
+    position: sticky;
+    top: 512px;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    background: #fff;
+    padding: 0 32px;
+}
+.paging-bar .counter {
+    width: 200px;
+}
+.icon-default {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.paging-bar .pagination {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.paging-bar .pagination > div {
+    margin: auto 10px;
+}
+.paging-bar .pagination .index-bar {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.paging-bar .pagination .page-list {
+    width: fit-content;
+    list-style: none;
+    padding-left: 0px !important;
+}
+.begin {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    z-index: 2;
+}
+.page-container {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pageIndex {
+    background-color: white;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last,
+.last-r-20 {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    z-index: 20;
+}
+.last-r-20 {
+    right: 20px;
+}
+.cursor {
+    cursor: pointer;
+}
+.current-page {
+    font-family: "notosans-bold", sans-serif;
+    border: 1px solid #bbb;
+}

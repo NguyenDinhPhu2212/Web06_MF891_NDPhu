@@ -1,0 +1,98 @@
+.popup-container {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    z-index: 41;
+}
+.popup {
+    position: absolute;
+    width: 444px;
+    height: auto;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: white;
+    z-index: 40;
+}
+.popup > div{
+    margin: 32px;
+}
+.popup-content {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #bbbbbb;
+    margin-bottom: 20px;
+}
+.popup-content .warning-icon {
+    margin-right: 20px;
+}
+.popup-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popup-footer .confirm {
+    display: flex;
+}
+.popup-content-text {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.popup-content-text div {
+    width: 100%;
+}
+.popup-footer .confirm > div:nth-child(1) {
+    margin-right: 10px;
+}
+.popup-footer .button {
+    height: 32px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8d9096;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.popup-footer .button:hover {
+    background-color: #d2d3d6;
+}
+.confirm-btn {
+    border: none;
+    background-color: #248b15 !important;
+    color: white;
+}
+.confirm-btn:hover {
+    background-color: #35bf22 !important;
+}
+.store {
+    background: url("../../assets/resource/img/Sprites.64af8f61.svg") no-repeat -832px -462px;
+	width: 36px;
+	height: 36px;
+}
+.validate {
+    background: url("../../assets/resource/img/Sprites.64af8f61.svg") no-repeat -752px -462px;
+    width: 36px;
+    height: 36px;
+}
+.delete {
+    background: url("../../assets/resource/img/Sprites.64af8f61.svg") no-repeat -598px -463px;
+	width: 36px;
+	height: 37px;
+}
+.duplicate{
+    background: url("../../assets/resource/img/Sprites.64af8f61.svg") no-repeat -598px -463px;
+	width: 36px;
+	height: 37px;
+}
+.m-auto {
+    margin: auto;
+}

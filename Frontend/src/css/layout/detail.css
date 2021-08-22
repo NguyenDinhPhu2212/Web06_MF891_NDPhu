@@ -1,0 +1,105 @@
+/* CSS for content */
+.employee-information-form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(186, 186, 186, 0.4);
+    z-index: 30;
+    cursor: grab;
+}
+.employee-detail-content {
+    max-height: 100%;
+    display: flex;
+    width: calc(100% - 32px);
+    margin: 0 32px !important;
+}
+.employee-detail .dropdown {
+    width: 100% !important;
+    border-radius: 2px;
+}
+.employee-detail-content > div > div {
+    width: calc(100% - 32px);
+}
+.employee-detail-content > div > div > .column{
+    width: 50%;
+}
+.employee-detail-content form .flex-column {
+    width: 50%;
+    margin-bottom: 16px;
+    position: relative;
+}
+/* CSS for general */
+
+.employee-detail {
+    max-width: 900px;
+    height: calc(100vh - 2px) !important;
+    margin: auto;
+    border: 1px solid #bbbbbb;
+    background-color: white;
+    margin: auto;
+}
+.employee-detail .employee-information {
+    width: calc(100vw - 300px);
+    height: calc(100% - 200px);
+}
+div#employee-form-dialog .ui-accordion-header {
+    background-color: red;
+}
+/* CSS for footer */
+hr{
+    border-top: 1px solid rgb(226, 226, 226);
+}
+.footer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+}
+.footer > div:nth-child(2) {
+    margin-right: 16px;
+}
+.footer .button {
+    width: auto;
+    padding: 0px 20px;
+}
+.save-button {
+    border: none;
+    background-color: #248b15 !important;
+    color: white;
+    height: 34px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+.save-button:hover {
+    background-color: #35bf22 !important;
+}
+.footer .btn{
+    padding: 8px 20px;
+    border: 1px solid #8d9096;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.footer .btn:hover{
+    background-color: #d2d3d6;
+}
+/* CSS for header */
+.form-header {
+    display: flex;
+    justify-content: space-between;
+}
+.form-header .form-header-title {
+    font-size: 24px;
+    margin: 20px 12px 20px 32px !important;
+}
+.form-header .exit-button , .help-button{
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
