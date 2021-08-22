@@ -100,6 +100,7 @@ export default {
             showNoContent: false,
             errors: [],
             valid: false,
+            currentEmployeeCode: {},
         };
     },
     /**
@@ -218,11 +219,12 @@ export default {
                 this.setPopup({ display: false });
             } else if (type == "store") {
                 let tmp = true;
-                if (this.valid) {
+                if (!this.valid) {
                     let response = await employeeApi.checkDuplicateCode(
-                        this.executeData.EmployeeCode
+                        this.currentEmployeeCode
                     );
                     if (response) {
+                        console.log(2);
                         this.setPopup(POPUP.DUPLICATE_POPUP);
                         tmp = false;
                     }
@@ -256,7 +258,8 @@ export default {
             } else this.showNoContent = show;
         },
         getValid: function (valid) {
-            this.valid = valid;
+            this.valid = valid.valid;
+            this.currentEmployeeCode = valid.data;
         },
     },
 };

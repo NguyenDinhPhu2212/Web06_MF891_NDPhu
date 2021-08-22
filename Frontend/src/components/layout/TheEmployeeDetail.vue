@@ -283,7 +283,7 @@ export default {
     async updated() {
         if (this.$store.getters.getNewCode) {
             await this.getNewCode();
-        } else this.newEmployeeCode = "";
+        }
         this.$refs["Code"].$refs.BaseInput.focus();
     },
     computed: {
@@ -322,17 +322,18 @@ export default {
         clickExitBtn: function () {
             this.setNewCode(false);
             let exeData = this.getExecuteData;
-            this.$emit("code", this.newEmployeeCode);
             this.getDataFromForm();
             let valid = true;
             if (
                 exeData.EmployeeCode != this.currentEmployee.EmployeeCode ||
-                (this.newEmployeeCode != this.currentEmployee.EmployeeCode &&
-                    this.newEmployeeCode != "")
+                this.action == ACTION.POST
             ) {
                 valid = false;
             }
-            this.$emit("checkDuplicate", valid);
+            this.$emit("checkDuplicate", {
+                valid: valid,
+                data: this.currentEmployee.EmployeeCode,
+            });
             if (!this.checkChangeData()) this.setPopup(POPUP.STORE_POPUP);
             else this.setDialog(false);
             Object.entries(this.$refs).forEach((component) => {
@@ -451,11 +452,9 @@ export default {
             let exeData = this.getExecuteData;
             this.getDataFromForm();
             let valid = true;
-
             if (
                 exeData.EmployeeCode != this.currentEmployee.EmployeeCode ||
-                (this.newEmployeeCode != this.currentEmployee.EmployeeCode &&
-                    this.newEmployeeCode != "")
+                this.action == ACTION.POST
             ) {
                 let response = await employeeApi.checkDuplicateCode(
                     this.currentEmployee.EmployeeCode
